@@ -1,0 +1,168 @@
+ConfigFile(
+    theme: Some("nord"),
+    music_directory: Some("/home/verdanteli/Music/"),
+    lyrics_dir: Some("/home/verdanteli/Music/"),
+    mpd_host: "127.0.0.1",
+    mpd_port: 6600,
+    seek_step: 5,
+    volume_step: 2,
+    show_album_art: true,
+
+    tabs: TabsFile([
+        (
+            name: "Queue",
+            pane: Split(
+                direction: Vertical,
+                panes: [
+                    (
+                        size: "100%",
+                        borders: BordersFile("NONE"),
+                        pane: Split(
+                            borders: BordersFile("NONE"),
+                            direction: Horizontal,
+                            panes: [
+                                (
+                                    size: "70%",
+                                    borders: BordersFile("ALL"),
+                                    pane: Pane(Queue),
+                                ),
+                                (
+                                    size: "30%",
+                                    borders: BordersFile("NONE"),
+                                    pane: Split(
+                                        direction: Vertical,
+                                        panes: [
+                                            (
+                                                size: "75%",
+                                                borders: BordersFile("ALL"),
+                                                pane: Pane(AlbumArt),
+                                            ),
+                                            (
+                                                size: "25%",
+                                                borders: BordersFile("NONE"),
+                                                pane: Split(
+                                                    direction: Vertical,
+                                                    panes: [
+                                                        (
+                                                            size: "100%",
+                                                            borders: BordersFile("NONE"),
+                                                            pane: Pane(Lyrics),
+                                                        ),
+                                                    ],
+                                                ),
+                                            ),
+                                        ],
+                                    ),
+                                ),
+                            ],
+                        ),
+                    ),
+                ],
+            ),
+        ),
+        (
+            name: "Directories",
+            pane: Split(
+                direction: Horizontal,
+                panes: [
+                    (
+                        size: "100%",
+                        borders: BordersFile("ALL"),
+                        pane: Pane(Directories),
+                    ),
+                ],
+            ),
+        ),
+        (
+            name: "Artists",
+            pane: Split(
+                direction: Horizontal,
+                panes: [
+                    (
+                        size: "100%",
+                        borders: BordersFile("ALL"),
+                        pane: Pane(Artists),
+                    ),
+                ],
+            ),
+        ),
+        (
+            name: "Album Artists",
+            pane: Split(
+                direction: Horizontal,
+                panes: [
+                    (
+                        size: "100%",
+                        borders: BordersFile("ALL"),
+                        pane: Pane(AlbumArtists),
+                    ),
+                ],
+            ),
+        ),
+        (
+            name: "Albums",
+            pane: Split(
+                direction: Horizontal,
+                panes: [
+                    (
+                        size: "100%",
+                        borders: BordersFile("ALL"),
+                        pane: Pane(Albums),
+                    ),
+                ],
+            ),
+        ),
+        (
+            name: "Playlists",
+            pane: Split(
+                direction: Horizontal,
+                panes: [
+                    (
+                        size: "100%",
+                        borders: BordersFile("ALL"),
+                        pane: Pane(Playlists),
+                    ),
+                ],
+            ),
+        ),
+        (
+            name: "Search",
+            pane: Split(
+                direction: Horizontal,
+                panes: [
+                    (
+                        size: "100%",
+                        borders: BordersFile("ALL"),
+                        pane: Pane(Search),
+                    ),
+                ],
+            ),
+        ),
+        (
+            name: "Browser",
+            pane: Split(
+                direction: Horizontal,
+                panes: [
+                    (
+                        size: "100%",
+                        borders: BordersFile("ALL"),
+                        pane: Pane(Browser(root_tag: "Artist")),
+                    ),
+                ],
+            ),
+        ),
+        (
+            name: "Lyrics",
+            pane: Split(
+                direction: Horizontal,
+                panes: [
+                    (
+                        size: "100%",
+                        borders: BordersFile("ALL"),
+                        pane: Pane(Lyrics),
+                    ),
+                ],
+            ),
+        ),
+    ]),
+)
