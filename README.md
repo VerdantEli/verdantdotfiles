@@ -9,7 +9,6 @@ Dotfiles are designed for:
 
 ## INSTALL
 
-
 ### Stow is used to install
 ##### !!INSTALL STOW BEFORE PROCEEDING!!
 ```
@@ -19,12 +18,21 @@ yay stow
 
 # Used Apps:
 - Ax-Shell
-- cava
+- mpvpaper
 - fastfetch
 - rmpc
 
-## Cloning and Installing
+## Installations
 ```
+# Dependencies for Ax-Shell & some apps used
+yay -S --needed fabric fabric-cli gray matugen brightnessctl cava cliphist \
+gnome-bluetooth-3.0 gobject-introspection gpu-screen-recorder grimblast \
+hypridle hyprlock hyprpicker hyprshot hyprsunset imagemagick libnotify \
+noto-fonts-emoji nvtop playerctl swappy swww tesseract tmux upower uwsm \
+vte3 webp-pixbuf-loader wl-clipboard wlinhibit mpvpaper rmpc-git mpd
+pipx install PyGObject ijson numpy pillow psutil pywayland requests setproctitle toml watchdog
+
+# Install VerdantDotFiles
 git clone https://github.com/VerdantEli/verdantdotfiles.git ~/.dotfiles
 cd ~/.dotfiles
 stow *
