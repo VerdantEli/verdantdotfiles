@@ -1,7 +1,7 @@
 ## INSTALL
 
 ### Stow is used to install
-!!INSTALL STOW BEFORE INSTALLING DOTFILES!!
+##### !!INSTALL STOW BEFORE PROCEEDING!!
 ```
 sudo pacman -S stow
 yay stow
