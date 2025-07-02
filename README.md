@@ -24,7 +24,8 @@ yay stow
 
 ## Installations
 ```
-# Dependencies for Ax-Shell & some apps used
+# Dependencies for Ax-Shell & some apps used ^damn so many^
+
 yay -S --needed fabric fabric-cli gray matugen brightnessctl cava cliphist \
 gnome-bluetooth-3.0 gobject-introspection gpu-screen-recorder grimblast \
 hypridle hyprlock hyprpicker hyprshot hyprsunset imagemagick libnotify \
@@ -33,6 +34,7 @@ vte3 webp-pixbuf-loader wl-clipboard wlinhibit mpvpaper rmpc-git mpd
 pipx install PyGObject ijson numpy pillow psutil pywayland requests setproctitle toml watchdog
 
 # Install VerdantDotFiles
+
 git clone https://github.com/VerdantEli/verdantdotfiles.git ~/.dotfiles
 cd ~/.dotfiles
 stow *
