@@ -1,4 +1,4 @@
-## VerdantDotFiles
+# VerdantDotFiles
 
 Dotfiles are designed for:
 - 1920x1080 screens
@@ -7,26 +7,23 @@ Dotfiles are designed for:
 - Green People
 - and fans of 初音ミク
 
-## INSTALL
-
-### Stow is used to install
-##### !!INSTALL STOW BEFORE PROCEEDING!!
-```
-sudo pacman -S stow
-yay stow
-```
-
-# Used Apps:
+### Used Apps:
 - Ax-Shell
 - mpvpaper
 - fastfetch
 - rmpc
 
 ## Installations
+
+btw i use yay so you should too 
+```
+pacman -S --needed git base-devel yay
+```
+Paste this in the terminal and you should be good to go :D
 ```
 # Dependencies for Ax-Shell & some apps used ^damn so many^
 
-yay -S --needed fabric fabric-cli gray matugen brightnessctl cava cliphist \
+yay -S --needed stow fabric fabric-cli gray matugen brightnessctl cava cliphist \
 gnome-bluetooth-3.0 gobject-introspection gpu-screen-recorder grimblast \
 hypridle hyprlock hyprpicker hyprshot hyprsunset imagemagick libnotify \
 noto-fonts-emoji nvtop playerctl swappy swww tesseract tmux upower uwsm \
