@@ -1,4 +1,4 @@
-# VerdanDotfiles
+# VerdantDotfiles
 This is basically what I rock with and will want to keep it this way.
 This also serves as a backup whenever I need to reinstall and a way for anyone to use this too.
 
