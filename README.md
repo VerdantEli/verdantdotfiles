@@ -21,6 +21,10 @@ curl -fsSL https://raw.githubusercontent.com/Axenide/Ax-Shell/main/install.sh | 
 # Download fastfetch, cava, rmpc, mpd, and mpvpaper
 yay -S cava rmpc-git mpd mpvpaper fastfetch
 
+# (Optional) Discord Rich Presence
+yay mpd-discord-rpc
+systemctl --user enable --now mpd-discord-rpc 
+
 # Clone and Extract This Git
 git clone https://github.com/VerdantEli/verdantdotfiles.git
 cd verdantdotfiles
