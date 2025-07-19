@@ -20,6 +20,7 @@ curl -fsSL https://raw.githubusercontent.com/Axenide/Ax-Shell/main/install.sh | 
 
 # Download fastfetch, cava, rmpc, mpd, and mpvpaper
 yay -S cava rmpc-git mpd mpvpaper fastfetch
+systemctl --user enable mpd
 
 # (Optional) Discord Rich Presence
 yay mpd-discord-rpc
