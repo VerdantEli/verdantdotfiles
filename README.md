@@ -1,7 +1,8 @@
 ## *The power of fluffy boys shines within you*
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a7cbfac0-4cf2-409c-b3aa-2653735abb49" />
-<img width="1158" height="499" alt="image" src="https://github.com/user-attachments/assets/e7b56ece-45f1-4299-822d-abcc4a2ce4d5" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/880d91bd-0928-4ea4-a6eb-740d2cc4a73f" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2d3401cb-7a91-4e08-bf41-9123fb84b194" />
+<img width="1920" height="1080" alt="2025-07-22-005632_hyprshot" src="https://github.com/user-attachments/assets/2f8fccdf-888b-45fb-9592-06951bad030c" />
 
 # COLEMAK-DH IS THE DEFAULT LAYOUT
 Press Alt+Space to switch to QWERTY temporarily and remove ```colemak-dh``` in the ```.config/hypr/hyprland.conf``` inside the input section. Sorry ! ! ! ! 
@@ -15,6 +16,10 @@ i like ralsei too btw so hehehehe
 Not much really :/
 
 Bar - Ax-Shell
+
+Greeter - SDDM
+
+Lock Screen - Hyprlock
 
 Audio Visualizer - cava
 
@@ -72,11 +77,11 @@ systemctl --user enable --now mpd-discord-rpc
 
 ### Credits:
 - Deltarune: Toby Fox
-- Ralsei in Fastfetch: DraxC4
 - Ralsei in Wallpapaer: GelyBean/Stomagedoom and iAbokai
 - Snow Overlay: https://www.vecteezy.com/ (i forgot who posted it sry)
+- Original SDDM Theme: [Keyitdev](https://github.com/Keyitdev/sddm-astronaut-theme) 
 - Original Starship Preset: https://starship.rs/presets/pastel-powerline
-- Original Micro Theme: https://github.com/catppuccin/micro
+- Original Micro Theme: [capppuccin](https://github.com/catppuccin/micro)
 
 Tell me please if I missed someone!!!
 Also if you guys have any suggestions, Feel free to message me at Discord ```verdanteli```
