@@ -8,6 +8,18 @@ This is basically what I rock with and will want to keep it this way.
 This also serves as a backup whenever I need to reinstall and a way for anyone to use this too.
 i like ralsei too btw so hehehehe
 
+# What's used in the dotfiles?
+Not much really :/
+
+Bar - Ax-Shell
+Audio Visualizer - cava
+Music Player CLI - rmpc
+Wallpaper - mpvpaper
+Shell - fish (only has its colors changed)
+Shell Prompt - Starship
+Text Editor - Micro (only has its colors changed, planning to change later)
+
+
 # INSTALLATION
 
 #### The dotfiles has Micro and Fish files in it. If you don't plan on using them, you can simply ignore it. But if you do use them and don't want to be overwritten then run:
