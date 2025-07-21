@@ -4,6 +4,8 @@
 <img width="1158" height="499" alt="image" src="https://github.com/user-attachments/assets/e7b56ece-45f1-4299-822d-abcc4a2ce4d5" />
 
 # COLEMAK-DH IS THE DEFAULT LAYOUT
+Press Alt+Space to switch to QWERTY temporarily and remove ```colemak-dh``` in the ```.config/hypr/hyprland.conf``` inside the input section. Sorry ! ! ! ! 
+
 # VerdantDotfiles
 This is basically what I rock with and will want to keep it this way.
 This also serves as a backup whenever I need to reinstall and a way for anyone to use this too.
