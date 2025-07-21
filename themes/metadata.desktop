@@ -1,0 +1,14 @@
+[SddmGreeterTheme]
+Name=verdantdotfiles
+Description=modified-sddm-astronaut-theme
+Author=VerdantEli (Modified from: keyitdev)
+Website=https://github.com/Keyitdev/sddm-astronaut-theme, https://github.com/VerdantEli/verdantdotfiles/
+License=GPL-3.0-or-later
+Type=sddm-theme
+Version=1.3
+ConfigFile=Themes/verdantralsei.conf
+MainScript=Main.qml
+TranslationsDirectory=translations
+Theme-Id=sddm-astronaut-theme
+Theme-API=2.0
+QtVersion=6
