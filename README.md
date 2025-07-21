@@ -3,6 +3,7 @@
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a7cbfac0-4cf2-409c-b3aa-2653735abb49" />
 <img width="1158" height="499" alt="image" src="https://github.com/user-attachments/assets/e7b56ece-45f1-4299-822d-abcc4a2ce4d5" />
 
+# COLEMAK-DH IS THE DEFAULT LAYOUT
 # VerdantDotfiles
 This is basically what I rock with and will want to keep it this way.
 This also serves as a backup whenever I need to reinstall and a way for anyone to use this too.
