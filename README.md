@@ -12,11 +12,17 @@ i like ralsei too btw so hehehehe
 Not much really :/
 
 Bar - Ax-Shell
+
 Audio Visualizer - cava
+
 Music Player CLI - rmpc
+
 Wallpaper - mpvpaper
+
 Shell - fish (only has its colors changed)
+
 Shell Prompt - Starship
+
 Text Editor - Micro (only has its colors changed, planning to change later)
 
 
@@ -46,8 +52,8 @@ Basically just run these command one by one:
 # Download Ax-Shell
 curl -fsSL https://raw.githubusercontent.com/Axenide/Ax-Shell/main/install.sh | bash
 
-# Download fastfetch, cava, rmpc, mpd, and mpvpaper
-yay -S cava rmpc-git mpd mpvpaper fastfetch starship
+# Download fastfetch, rmpc, mpd, mpvpaper and starship
+yay -S mpc-git mpd mpvpaper fastfetch starship
 systemctl --user enable mpd
 
 # Clone and Extract This Git
