@@ -67,6 +67,7 @@ systemctl --user enable mpd
 # Clone and Extract This Git
 git clone https://github.com/VerdantEli/verdantdotfiles.git
 cd verdantdotfiles
+sudo mv themes/ /usr/share/sddm/themes/verdantdotfiles
 mv Pictures ~/
 mv .config ~/
 
@@ -74,6 +75,10 @@ mv .config ~/
 yay mpd-discord-rpc
 systemctl --user enable --now mpd-discord-rpc 
 ```
+
+The cherry on top:
+[Ralsei Plushie Cursor](https://www.reddit.com/r/ralsei/comments/1lz9ca7/ralsei_plush_cursor/)
+
 
 ### Credits:
 - Deltarune: Toby Fox
