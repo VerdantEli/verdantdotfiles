@@ -60,8 +60,8 @@ Basically just run these command one by one:
 # Download Ax-Shell
 curl -fsSL https://raw.githubusercontent.com/Axenide/Ax-Shell/main/install.sh | bash
 
-# Download fastfetch, rmpc, mpd, mpvpaper and starship
-yay -S mpc-git mpd mpvpaper fastfetch starship
+# Download fastfetch, rmpc, mpd, mpvpaper, wtype and starship
+yay -S mpc-git mpd mpvpaper fastfetch starship wtype
 systemctl --user enable mpd
 
 # Clone and Extract This Git
