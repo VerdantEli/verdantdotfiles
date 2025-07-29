@@ -1,0 +1,9 @@
+[[shades]]
+name = "maxedcolors"
+default = true
+
+
+[[shades]]
+name = "maxedcolors"
+start_time = 19:00:00
+end_time = 06:00:00  

@@ -1,0 +1,5 @@
+[opener]
+open = [{ run = 'kde-open "$1"', desc = "Open", for = "linux" }]
+
+[mgr]
+show_hidden = true
