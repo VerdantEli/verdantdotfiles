@@ -13,8 +13,6 @@ This also serves as a backup whenever I need to reinstall and a way for anyone t
 i like ralsei too btw so hehehehe
 
 # What's used in the dotfiles?
-Not much really :/
-
 Audio Visualizer - cava
 
 Bar - Ax-Shell
@@ -51,9 +49,10 @@ You can skip to the Cloning part if are already installed:
 - yazi
 - hyprshade (optional)
 - hypr-dynamic-cursors (optional)
-But I recommend not skipping any part to ensure that everything or something doesnt break
 
-Basically just run these command one by one:
+### But I recommend not skipping any part to ensure that everything or something doesnt break
+
+## Basically just run these command one by one:
 
 ```
 # Download Ax-Shell
