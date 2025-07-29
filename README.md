@@ -15,44 +15,43 @@ i like ralsei too btw so hehehehe
 # What's used in the dotfiles?
 Not much really :/
 
+Audio Visualizer - cava
+
 Bar - Ax-Shell
+
+File Manager - Yazi
 
 Greeter - SDDM
 
 Lock Screen - Hyprlock
 
-Audio Visualizer - cava
-
 Music Player CLI - rmpc
 
-Wallpaper - mpvpaper
-
-Shell - fish (only has its colors changed)
+Shell - fish 
 
 Shell Prompt - Starship
 
-Text Editor - Micro (only has its colors changed, planning to change later)
+Text Editor - Micro
+
+Wallpaper - mpvpaper
 
 
 # INSTALLATION
 
-#### The dotfiles has Micro and Fish files in it. If you don't plan on using them, you can simply ignore it. But if you do use them and don't want to be overwritten then run:
-
-```
-rm .config/fish
-rm .config/micro
-```
-
 You can skip to the Cloning part if are already installed:
 - Ax-Shell
-- fastfetch
 - cava
-- rmpc
+- fastfetch
+- Fish
+- Micro 
 - mpd
 - mpvpaper
+- rmpc
 - Starship
-- Micro (optional)
-- Fish (optional)
+- yazi
+- hyprshade (optional)
+- hypr-dynamic-cursors (optional)
+But I recommend not skipping any part to ensure that everything or something doesnt break
 
 Basically just run these command one by one:
 
@@ -61,8 +60,17 @@ Basically just run these command one by one:
 curl -fsSL https://raw.githubusercontent.com/Axenide/Ax-Shell/main/install.sh | bash
 
 # Download fastfetch, rmpc, mpd, mpvpaper, wtype and starship
-yay -S mpc-git mpd mpvpaper fastfetch starship wtype
+yay -S mpc-git mpd mpvpaper fastfetch starship wtype yazi
 systemctl --user enable mpd
+
+# Hyprshade - install if your monitor feels washed
+yay -S hyprshade 
+hyprshade install
+systemctl --user enable --now hyprshade.timer
+
+# Dynamic Cursor - if you wanna make your cursor quirky
+hyprpm add https://github.com/virtcode/hypr-dynamic-cursors
+hyprpm enable dynamic-cursors
 
 # Clone and Extract This Git
 git clone https://github.com/VerdantEli/verdantdotfiles.git
@@ -87,6 +95,9 @@ The cherry on top:
 - Original SDDM Theme: [Keyitdev](https://github.com/Keyitdev/sddm-astronaut-theme) 
 - Original Starship Preset: https://starship.rs/presets/pastel-powerline
 - Original Micro Theme: [capppuccin](https://github.com/catppuccin/micro)
+## To each of the packages that is used in this dots, huge thanks for making our desktops lively
+
+
 
 Tell me please if I missed someone!!!
 Also if you guys have any suggestions, Feel free to message me at Discord ```verdanteli```
