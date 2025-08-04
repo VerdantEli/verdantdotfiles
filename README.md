@@ -1,6 +1,6 @@
 ## *The power of fluffy boys shines within you*
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/eb550d38-9d72-4d6c-a926-d23148aa7b5c" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/dff8b0b2-72ad-4511-86f9-7a8873affac3" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2d3401cb-7a91-4e08-bf41-9123fb84b194" />
 <img width="1920" height="1080" alt="2025-07-22-005632_hyprshot" src="https://github.com/user-attachments/assets/2f8fccdf-888b-45fb-9592-06951bad030c" />
 
@@ -92,7 +92,6 @@ hyprpm enable dynamic-cursors
 # Hyprshade - install if your monitor feels washed
 yay -S hyprshade 
 hyprshade on maxedcolors
-
 ```
 
 The cherry on top:
