@@ -6,14 +6,24 @@ https://github.com/user-attachments/assets/575d0b2a-83c2-431f-87a9-b9e00f248659
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2d3401cb-7a91-4e08-bf41-9123fb84b194" />
 <img width="1920" height="1080" alt="2025-07-22-005632_hyprshot" src="https://github.com/user-attachments/assets/2f8fccdf-888b-45fb-9592-06951bad030c" />
 
-# COLEMAK-DH KEYBINDS
-Alongside the default keybinds, there is an available Colemak-DH version that mimics the original keybinds.
-This is so that even if ever someone uses Colemak-DH or planning to switch, they can use these keybinds to not mess with their muscle memory
-
 # VerdantDotfiles
 This is basically what I rock with and will want to keep it this way.
 This also serves as a backup whenever I need to reinstall and a way for anyone to use this too.
 If you didn't notice too, I love green and Ralsei. That should be obvious. May Ralsei bless my heart. 
+
+# COLEMAK-DH KEYBINDS
+Alongside the default keybinds, there is an available Colemak-DH version that mimics the original keybinds.
+This is so that even if ever someone uses Colemak-DH or planning to switch, they can use these keybinds to not mess with their muscle memory
+
+# SCROLLER LAYOUT
+This dots is set to be in scroller mode since that's what I use now. 
+If you don't want to scroller and just want to use dwintle, then you would need to change this in the `hyprland.conf`
+
+```
+general {
+    layout = # scroller or dwindle
+}
+```
 
 # What's used in the dotfiles?
 
