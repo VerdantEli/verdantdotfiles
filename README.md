@@ -1,6 +1,7 @@
 ## *The power of fluffy boys shines within you*
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/88f38565-94bb-42f3-82dd-b9067e76b74f" />
+
+https://github.com/user-attachments/assets/575d0b2a-83c2-431f-87a9-b9e00f248659
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2d3401cb-7a91-4e08-bf41-9123fb84b194" />
 <img width="1920" height="1080" alt="2025-07-22-005632_hyprshot" src="https://github.com/user-attachments/assets/2f8fccdf-888b-45fb-9592-06951bad030c" />
 
