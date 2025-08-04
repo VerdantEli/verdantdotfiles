@@ -4,16 +4,18 @@
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2d3401cb-7a91-4e08-bf41-9123fb84b194" />
 <img width="1920" height="1080" alt="2025-07-22-005632_hyprshot" src="https://github.com/user-attachments/assets/2f8fccdf-888b-45fb-9592-06951bad030c" />
 
-# COLEMAK-DH IS THE DEFAULT LAYOUT
-Press Alt+Space to switch to QWERTY temporarily and remove ```colemak-dh``` in the ```.config/hypr/hyprland.conf``` inside the input section. Sorry ! ! ! ! 
+# COLEMAK-DH KEYBINDS
+Alongside the default keybinds, there is an available Colemak-DH version that mimics the original keybinds.
+This is so that even if ever someone uses Colemak-DH or planning to switch, they can use these keybinds to not mess with their muscle memory
 
 # VerdantDotfiles
 This is basically what I rock with and will want to keep it this way.
 This also serves as a backup whenever I need to reinstall and a way for anyone to use this too.
-i like ralsei too btw so hehehehe
+If you didn't notice too, I love green and Ralsei. That should be obvious. May Ralsei bless my heart. 
 
 # What's used in the dotfiles?
-Audio Visualizer - cava
+
+Audio Visualizer - cavasik
 
 Bar - Ax-Shell
 
@@ -38,9 +40,10 @@ Wallpaper - mpvpaper
 
 You can skip to the Cloning part if are already installed:
 - Ax-Shell
-- cava
+- cavasik
 - fastfetch
 - Fish
+- hyprscroller
 - Micro 
 - mpd
 - mpvpaper
@@ -58,18 +61,16 @@ You can skip to the Cloning part if are already installed:
 # Download Ax-Shell
 curl -fsSL https://raw.githubusercontent.com/Axenide/Ax-Shell/main/install.sh | bash
 
+# Install hyprscroller - being maintained by cpiber
+hyprpm add https://github.com/cpiber/hyprscroller
+hyprpm enable hyprscroller
+
 # Download fastfetch, rmpc, mpd, mpvpaper, wtype and starship
 yay -S mpc-git mpd mpvpaper fastfetch starship wtype yazi
 systemctl --user enable mpd
 
-# Hyprshade - install if your monitor feels washed
-yay -S hyprshade 
-hyprshade install
-systemctl --user enable --now hyprshade.timer
-
-# Dynamic Cursor - if you wanna make your cursor quirky
-hyprpm add https://github.com/virtcode/hypr-dynamic-cursors
-hyprpm enable dynamic-cursors
+# Download cavasik - Flatpak for better compatibility
+flatpak install io.github.TheWisker.Cavasik
 
 # Clone and Extract This Git
 git clone https://github.com/VerdantEli/verdantdotfiles.git
@@ -78,9 +79,20 @@ sudo mv themes/ /usr/share/sddm/themes/verdantdotfiles
 mv Pictures ~/
 mv .config ~/
 
-# (Optional) MPD Discord Rich Presence
+# Optional Stuff but would reccommend :D
+
+# MPD Discord Rich Presence
 yay mpd-discord-rpc
-systemctl --user enable --now mpd-discord-rpc 
+systemctl --user enable --now mpd-discord-rpc
+
+# Dynamic Cursor - if you wanna make your cursor quirky
+hyprpm add https://github.com/virtcode/hypr-dynamic-cursors
+hyprpm enable dynamic-cursors 
+
+# Hyprshade - install if your monitor feels washed
+yay -S hyprshade 
+hyprshade on maxedcolors
+
 ```
 
 The cherry on top:
