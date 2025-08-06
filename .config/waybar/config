@@ -8,7 +8,6 @@
 		"custom/arrow11",
 		"custom/bongo",
 		"custom/arrow12",
-		"hyprland/mode",
 		"hyprland/workspaces",
 		"custom/arrow10",
 		"hyprland/window"
@@ -81,6 +80,7 @@
 
 	"hyprland/window": {
 		"format": "{}",
+		"icon": true,
 		"max-length": 30,
 		"tooltip": false
 	},
