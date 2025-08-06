@@ -1,0 +1,13 @@
+* {
+	border: #50cc90;
+	background: #38705eb3;
+	background-alt: #1a382e; 
+	foreground: #ffffff;
+	selected: #63043e;
+	selected-foreground: #ffffff;
+	alternate-normal-background: transparent;
+	alternate-active-background: transparent;
+	alternate-urgent-background: transparent;
+}
+
+/* this sucks */
