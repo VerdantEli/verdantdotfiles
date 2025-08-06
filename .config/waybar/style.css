@@ -152,6 +152,11 @@
 	font-size: 18.9pt;
 	color: @sound;
 }
+#custom-fadeout {
+	font-size: 18.9pt;
+	color: @time;
+	background: transparent;
+}
 #custom-user {
 	font-size: 13pt;
 	color: @black;

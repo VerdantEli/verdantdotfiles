@@ -24,7 +24,8 @@
 		"tray",
 		"clock#date",
 		"custom/arrow1",
-		"clock#time"
+		"clock#time",
+		"custom/fadeout"
 	],
 
 	// Modules
@@ -122,6 +123,11 @@
 		"format": "░▒▓",
 		"tooltip": false
 	},
+	"custom/fadeout": {
+			"format": "▓▒░",
+			"tooltip": false
+	},
+
 	"custom/user": {
 		"format": "  verdanteli ",
 		"tooltip": false
