@@ -11,6 +11,8 @@ This is basically what I rock with and will want to keep it this way.
 This also serves as a backup whenever I need to reinstall and a way for anyone to use this too.
 If you didn't notice too, I love green and Ralsei. That should be obvious. May Ralsei bless my heart. 
 
+*not being maintained right now*
+
 # COLEMAK-DH KEYBINDS
 Alongside the default keybinds, there is an available Colemak-DH version that mimics the original keybinds.
 This is so that even if ever someone uses Colemak-DH or planning to switch, they can use these keybinds to not mess with their muscle memory
